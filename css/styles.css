@@ -1,0 +1,19 @@
+head,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.header .navbar img {
+  width: 300px;
+}
+.main {
+  background: url(../images/main-bg.jpg) no-repeat top left;
+  background-size: 100%;
+  height: auto;
+  text-align: right;
+}
+.main h1 {
+  font-weight: 800;
+  font-size: 45px;
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
