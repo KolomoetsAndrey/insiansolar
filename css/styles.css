@@ -198,7 +198,7 @@ body {
   color: #ffd400;
 }
 .about .about-img {
-  width: 420px;
+  width: 100%;
   box-shadow: 30px 30px 0px #E8EFF6;
 }
 .about h3::before {
@@ -293,9 +293,6 @@ body {
 .solar ul li {
   list-style: none;
   padding-bottom: 5px;
-}
-.solar .solar-text {
-  margin-bottom: 25px;
 }
 .solar .solar-btn {
   border: 1px solid #ffd400;
