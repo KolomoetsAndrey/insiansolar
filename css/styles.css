@@ -313,6 +313,37 @@ body {
   color: #fff;
   background-position: right center;
 }
+.gallery {
+  color: #212529;
+}
+.gallery h3 {
+  font-weight: 800;
+  font-size: 45px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.gallery h3 span {
+  color: #ffd400;
+}
+.gallery h3::before {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 15%;
+  margin-right: 20px;
+  border-top: 1px solid #ffd400;
+}
+.gallery h3::after {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 30%;
+  margin-left: 20px;
+  border-top: 1px solid #1a598e;
+}
+.gallery .works img {
+  width: 100%;
+  box-shadow: 50px 50px 0px #E8EFF6;
+}
 .news {
   color: #212529;
 }
