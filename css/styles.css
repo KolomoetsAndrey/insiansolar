@@ -313,6 +313,119 @@ body {
   color: #fff;
   background-position: right center;
 }
+.news {
+  color: #212529;
+}
+.news h3 {
+  font-weight: 800;
+  font-size: 45px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.news h3 span {
+  color: #ffd400;
+}
+.news h3::before {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 15%;
+  margin-right: 20px;
+  border-top: 1px solid #ffd400;
+}
+.news h3::after {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 30%;
+  margin-left: 20px;
+  border-top: 1px solid #1a598e;
+}
+.news img {
+  width: 100%;
+  margin-bottom: 15px;
+  box-shadow: 30px 30px 0px #E8EFF6;
+}
+.news .articles a {
+  color: #212529;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.news .articles a:hover {
+  color: #ffd400;
+  text-decoration: none;
+}
+.news .articles a::before {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 30%;
+  margin-right: 20px;
+  border-top: 1px solid #ffd400;
+}
+.news .articles a::after {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 30%;
+  margin-left: 20px;
+  border-top: 1px solid #1a598e;
+}
+.news .news-btn {
+  border: 1px solid #ffd400;
+  margin-left: 10px;
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #212529;
+  border-radius: 50px;
+  padding: 15px 35px;
+  background-size: 200% auto;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-image: linear-gradient(to right, #ff7700 0%, #ffe514 50%, #ff7b00 100%);
+  transition: all 0.5s;
+}
+.news .news-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-position: right center;
+}
+.testimonials {
+  color: #212529;
+}
+.testimonials h3 {
+  font-weight: 800;
+  font-size: 45px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.testimonials h3 span {
+  color: #ffd400;
+}
+.testimonials h3::before {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 15%;
+  margin-right: 20px;
+  border-top: 1px solid #ffd400;
+}
+.testimonials h3::after {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 30%;
+  margin-left: 20px;
+  border-top: 1px solid #1a598e;
+}
+.testimonials .person-testimonial img {
+  margin-bottom: 15px;
+  height: 120px;
+  padding: 20px;
+  border: 1px solid #21252933;
+  box-shadow: 50px 50px 0px #E8EFF6;
+}
+.testimonials .person-testimonial h4 {
+  height: 60px;
+}
 .righted {
   text-align: right;
 }
@@ -329,6 +442,7 @@ body {
 }
 .footer ul a {
   color: #fff;
+  transition: all 0.2s;
 }
 .footer ul a:hover {
   color: #ffd400;
