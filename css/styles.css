@@ -313,3 +313,36 @@ body {
   color: #fff;
   background-position: right center;
 }
+.righted {
+  text-align: right;
+}
+.footer {
+  background: #1a598e;
+  color: #fff;
+}
+.footer ul {
+  margin-left: -20px;
+}
+.footer ul li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+.footer ul a {
+  color: #fff;
+}
+.footer ul a:hover {
+  color: #ffd400;
+  text-decoration: none;
+}
+.footer i {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #ffd400;
+}
+.footer img {
+  width: 100%;
+}
+.footer .footer-logo img {
+  width: 150px;
+  margin-bottom: 15px;
+}
