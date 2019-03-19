@@ -5,6 +5,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
 }
@@ -194,7 +195,8 @@ body {
   font-weight: 600;
 }
 .about {
-  border-top: 1px solid #f4f4f4;
+  border-top: 55px solid transparent;
+  margin-top: -55px;
   color: #212529;
 }
 .about h3 {
@@ -464,6 +466,75 @@ body {
 }
 .testimonials .person-testimonial h4 {
   height: 60px;
+}
+.consultation h3 {
+  font-weight: 800;
+  font-size: 45px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.consultation h3 span {
+  color: #ffd400;
+}
+.consultation h3::before {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 15%;
+  margin-right: 20px;
+  border-top: 1px solid #ffd400;
+}
+.consultation h3::after {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 20%;
+  margin-left: 20px;
+  border-top: 1px solid #1a598e;
+}
+.consultation .form-group {
+  min-width: 450px;
+}
+.consultation .form-group label {
+  margin-top: 15px;
+}
+.consultation .form-group .form-control {
+  height: 70px;
+  border-radius: 50px;
+  background-color: #b7cade40;
+  text-align: center;
+}
+.consultation .form-group ::-webkit-input-placeholder {
+  text-align: center;
+}
+.consultation .form-group :-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+}
+.consultation .form-group ::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+}
+.consultation .form-group :-ms-input-placeholder {
+  text-align: center;
+}
+.consultation .send-btn {
+  border: 1px solid #ffd400;
+  margin-left: 10px;
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #212529;
+  border-radius: 50px;
+  padding: 15px 35px;
+  background-size: 200% auto;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-image: linear-gradient(to right, #ff7700 0%, #ffe514 50%, #ff7b00 100%);
+  transition: all 0.5s;
+}
+.consultation .send-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-position: right center;
 }
 .righted {
   text-align: right;
