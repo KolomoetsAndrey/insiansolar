@@ -19,7 +19,7 @@
 
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg clearfix">
+    <nav class="navbar fixed-top navbar-expand-lg">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">
                 <img src="images/logo.png" alt="">
@@ -51,27 +51,32 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="images/socials/facebook-white.png" alt="">
+                                    <img src="images/socials/facebook-white.png" alt="" onMouseOver="toolTip('Ми на Facebook')" onMouseOut="toolTip()">
+                                    <div class="animated fadeIn" id="floatTip"></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/socials/instagram-white.png" alt="">
+                                    <img src="images/socials/instagram-white.png" alt="" onMouseOver="toolTip('Ми в Instagram')" onMouseOut="toolTip()">
+                                    <div class="animated fadeIn" id="floatTip"></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/socials/youtube-white.png" alt="">
+                                    <img src="images/socials/youtube-white.png" alt="" onMouseOver="toolTip('Наш канал на YouTube')" onMouseOut="toolTip()">
+                                    <div class="animated fadeIn" id="floatTip"></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/socials/telegram-white.png" alt="">
+                                    <img src="images/socials/telegram-white.png" alt="" onMouseOver="toolTip('Канал новин в Telegram')" onMouseOut="toolTip()">
+                                    <div class="animated fadeIn" id="floatTip"></div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/socials/google-maps-white.png" alt="">
+                                    <img src="images/socials/google-maps-white.png" alt="" onMouseOver="toolTip('Знайти на картах Google')" onMouseOut="toolTip()">
+                                    <div id="floatTip"></div>
                                 </a>
                             </li>
                         </ul>
@@ -84,7 +89,7 @@
     <section class="main" id="main">
         <div class="container">
             <div class="row">
-                <div class="col-12 main-text">
+                <div class="col-12 main-text animated fadeInDown">
                     <h1>
                         Індіан солар <span>дизайн</span>
                     </h1>
@@ -100,7 +105,7 @@
     </section> 
 
     <!-- ABOUT US -->
-    <section class="about pt-5 pb-3" id="about">
+    <section class="about pt-5 pb-3 animated fadeIn" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-12 centered">
@@ -130,7 +135,7 @@
     </section>
 
     <!-- OUR SERVICES -->
-    <section class="services" id="services">
+    <section class="services animated fadeIn" id="services">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 centered">
@@ -173,7 +178,7 @@
     </section>
 
     <!-- SOLAR MAP -->
-    <section class="solar pt-3 pb-3" id="solar">
+    <section class="solar pt-3 pb-3 animated fadeIn" id="solar">
         <div class="container">
             <div class="row">
                 <div class="col-12 centered">
@@ -216,7 +221,7 @@
     </section>
 
     <!-- GALLERY -->
-    <section class="gallery pt-5" id="gallery">
+    <section class="gallery pt-5 animated fadeIn" id="gallery">
         <div class="container">
             <div class="row">
                 <div class="col-12 centered">
@@ -249,7 +254,7 @@
     </section>
 
     <!-- NEWS -->
-    <section class="news pt-5" id="news">
+    <section class="news pt-5 animated fadeIn" id="news">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 centered">
@@ -307,7 +312,7 @@
     </section>
 
     <!-- TESTIMONIALS -->
-    <div class="section testimonials pt-5" id="testmonials">
+    <div class="section testimonials pt-5 animated fadeIn" id="testmonials">
         <div class="container">
             <div class="row">
                 <div class="col-12 centered">
@@ -362,7 +367,7 @@
     </div>
 
     <!-- FOOTER -->
-    <footer class="footer mt-5" id="footer">
+    <footer class="footer mt-5 animated fadeIn" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 pt-5">
@@ -427,5 +432,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/hamburger.js"></script>
+    <script src="js/tooltip.js"></script>
 </body>
 </html>
