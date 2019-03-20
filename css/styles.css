@@ -318,10 +318,6 @@ body {
 .brands h3 span {
   color: #ffd400;
 }
-.brands .about-img {
-  width: 100%;
-  box-shadow: 30px 30px 0px #E8EFF6;
-}
 .brands h3::before {
   content: "";
   display: inline-block;
@@ -337,6 +333,75 @@ body {
   width: 30%;
   margin-left: 20px;
   border-top: 1px solid #1a598e;
+}
+.brands .brands-logos img {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+  background: #fff;
+  border: 1px solid #21252933;
+  box-shadow: 50px 50px 0px #E8EFF6;
+}
+.team {
+  padding-top: 105px;
+  color: #212529;
+  background-color: #edf2f7;
+}
+.team h3 {
+  font-weight: 800;
+  font-size: 45px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.team h3 span {
+  color: #ffd400;
+}
+.team h3::before {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 15%;
+  margin-right: 20px;
+  border-top: 1px solid #ffd400;
+}
+.team h3::after {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 30%;
+  margin-left: 20px;
+  border-top: 1px solid #1a598e;
+}
+.team .team-img {
+  width: 100%;
+}
+.ntmy h3 {
+  font-weight: 800;
+  font-size: 45px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.ntmy h3 span {
+  color: #ffd400;
+}
+.ntmy h3::before {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 15%;
+  margin-right: 20px;
+  border-top: 1px solid #ffd400;
+}
+.ntmy h3::after {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 15%;
+  margin-left: 20px;
+  border-top: 1px solid #1a598e;
+}
+.ntmy .peoples img {
+  width: 100%;
+  box-shadow: 30px 30px 0px #E8EFF6;
+  margin-bottom: 15px;
 }
 .items {
   color: #212529;
