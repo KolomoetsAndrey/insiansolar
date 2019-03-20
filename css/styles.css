@@ -75,11 +75,11 @@ body {
   text-align: center;
 }
 @media (max-width: 992px) {
-  .navbar a {
+  .navbar .nav-link {
     text-align: center;
   }
-  .navbar a:hover {
-    box-shadow: 0;
+  .navbar .nav-link:hover {
+    box-shadow: none;
   }
 }
 .animated-icon1 {
