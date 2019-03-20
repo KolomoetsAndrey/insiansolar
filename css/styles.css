@@ -289,9 +289,10 @@ body {
   border-top: 1px solid #1a598e;
 }
 .decisions .packs img {
-  height: 200px;
+  width: 100%;
   padding: 20px;
   margin-bottom: 15px;
+  background: #fff;
   border: 1px solid #21252933;
   box-shadow: 50px 50px 0px #E8EFF6;
 }
@@ -670,7 +671,7 @@ body {
   border-top: 1px solid #1a598e;
 }
 .consultation .form-group {
-  min-width: 430px;
+  min-width: 400px;
 }
 .consultation .form-group label {
   margin-top: 15px;
