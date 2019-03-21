@@ -1047,8 +1047,13 @@ body {
   .gallery h3,
   .news h3,
   .testimonials h3,
-  .consultation h3 {
+  .consultation h3,
+  .energo-news h3,
+  .energo-articles h3 {
     font-size: 35px;
+  }
+  .energo-articles .articles p {
+    font-size: 10px;
   }
   .consultation .form-group {
     max-width: 300px;
