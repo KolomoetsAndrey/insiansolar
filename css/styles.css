@@ -51,6 +51,7 @@ body {
 .navbar .nav-link {
   color: white;
   font-weight: 500;
+  margin: 0 10px;
   transition: all 0.2s;
 }
 .navbar .nav-link:hover {
