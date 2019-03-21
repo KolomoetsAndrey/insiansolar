@@ -20,10 +20,16 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
 
+    <!--WOW JS-->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 </head>
 <body>
-    <button onclick="topFunction()" id="toTop">Вгору</button>
-    <nav class="navbar fixed-top navbar-expand-lg">
+    <button class="wow bounceInRight" onclick="topFunction()" id="toTop">Вгору</button>
+    <nav class="navbar fixed-top navbar-expand-lg fadeInDown animated">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">
                 <img src="images/logo.png" alt="">
@@ -94,13 +100,12 @@
     <section class="main" id="main">
         <div class="container">
             <div class="row">
-                <div class="col-12 main-text animated fadeInDown">
+                <div class="col-12 main-text fadeInLeft animated">
                     <h1>
                         Indian Solar <span>Design</span>
                     </h1>
                     <h5>
                         Ваш надійний партнер в галузі альтернативної енергетики
-                        <!--Готові рішення сонячних електростанцій-->
                     </h5>
                     <a class="next-btn" href="#about">
                         Детальніше
@@ -111,7 +116,7 @@
     </section> 
 
     <!-- ABOUT US -->
-    <section class="about pt-5 pb-3 animated fadeIn" id="about">
+    <section class="about pt-5 pb-3 wow fadeIn" data-wow-offset="100" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-12 centered">
@@ -141,7 +146,7 @@
     </section>
 
     <!-- OUR SERVICES -->
-    <section class="services animated fadeIn" id="services">
+    <section class="services wow fadeIn" data-wow-offset="100" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-12 centered">
@@ -186,7 +191,7 @@
     </section>
 
     <!-- SOLAR MAP -->
-    <section class="solar pt-3 pb-3 animated fadeIn" id="solar">
+    <section class="solar pt-3 pb-3 wow fadeIn" data-wow-offset="100" id="solar">
         <div class="container">
             <div class="row">
                 <div class="col-12 centered">
@@ -229,7 +234,7 @@
     </section>
 
     <!-- GALLERY -->
-    <section class="gallery pt-5 animated fadeIn" id="gallery">
+    <section class="gallery pt-5 wow fadeIn" data-wow-offset="100" id="gallery">
         <div class="container">
             <div class="row">
                 <div class="col-12 centered">
@@ -262,7 +267,7 @@
     </section>
 
     <!-- NEWS -->
-    <section class="news pt-5 animated fadeIn" id="news">
+    <section class="news pt-5 wow fadeIn" data-wow-offset="100" id="news">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 centered">
@@ -320,7 +325,7 @@
     </section>
 
     <!-- TESTIMONIALS -->
-    <div class="section testimonials pt-5 animated fadeIn" id="testmonials">
+    <div class="section testimonials pt-5 wow fadeIn" data-wow-offset="100" id="testmonials">
         <div class="container">
             <div class="row">
                 <div class="col-12 centered">
@@ -375,7 +380,7 @@
     </div>
 
     <!-- CONSULTATION -->
-    <section class="consultation pt-5 animated fadeIn" id="consultation">
+    <section class="consultation pt-5 wow fadeIn" data-wow-offset="100" id="consultation">
         <div class="container">
             <div class="row">
                 <div class="col-12 centered">
@@ -462,7 +467,6 @@
         </div>
     </footer>
 
-
     <!--JS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -470,5 +474,6 @@
     <script src="js/hamburger.js"></script>
     <script src="js/tooltip.js"></script>
     <script src="js/scrollup.js"></script>
+
 </body>
 </html>
