@@ -522,6 +522,52 @@ html, body {
     .green-img {
         width: 100%;
     }
+
+    a {
+        color: #1a598e;
+        transition: all 0.2s;
+
+        &:hover {
+            color: #ffd400;
+            text-decoration: none;
+        }
+    }
+}
+
+.economics {
+    h3 {
+        font-weight: 800;
+        font-size: @h3-font-size;
+        text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+
+        span {
+            color: #ffd400;
+        }
+    }
+
+    h3::before {
+        content: "";
+        display: inline-block;
+        height: .35em;
+        width: 15%;
+        margin-right: 20px;
+        border-top: 1px solid #ffd400;
+    }
+
+    h3::after {
+        content: "";
+        display: inline-block;
+        height: .35em;
+        width: 15%;
+        margin-left: 20px;
+        border-top: 1px solid #1a598e;
+    }
+
+    .variants {
+        span {
+            padding-left: 10px;
+        }
+    }
 }
 
 .contacts {
