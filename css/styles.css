@@ -404,6 +404,105 @@ body {
   margin-left: 20px;
   border-top: 1px solid #1a598e;
 }
+.our-projects .projects-img {
+  width: 100%;
+}
+.green {
+  padding-top: 105px;
+  color: #212529;
+  background-color: #edf2f7;
+}
+.green h3 {
+  font-weight: 800;
+  font-size: 45px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.green h3 span {
+  color: #ffd400;
+}
+.green h3::before {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 15%;
+  margin-right: 20px;
+  border-top: 1px solid #ffd400;
+}
+.green h3::after {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 30%;
+  margin-left: 20px;
+  border-top: 1px solid #1a598e;
+}
+.green .green-img {
+  width: 100%;
+}
+.contacts {
+  padding-top: 105px;
+  color: #212529;
+  background-color: #edf2f7;
+}
+.contacts h3 {
+  font-weight: 800;
+  font-size: 45px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.contacts h3 span {
+  color: #ffd400;
+}
+.contacts h3::before {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 15%;
+  margin-right: 20px;
+  border-top: 1px solid #ffd400;
+}
+.contacts h3::after {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 30%;
+  margin-left: 20px;
+  border-top: 1px solid #1a598e;
+}
+.contacts .contacts-img {
+  width: 100%;
+}
+.contacts a {
+  color: #212529;
+  transition: all 0.2s;
+}
+.contacts a:hover {
+  color: #ffd400;
+  text-decoration: none;
+}
+.map h3 {
+  font-weight: 800;
+  font-size: 45px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.map h3 span {
+  color: #ffd400;
+}
+.map h3::before {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 15%;
+  margin-right: 20px;
+  border-top: 1px solid #ffd400;
+}
+.map h3::after {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 30%;
+  margin-left: 20px;
+  border-top: 1px solid #1a598e;
+}
 .ntmy h3 {
   font-weight: 800;
   font-size: 45px;
