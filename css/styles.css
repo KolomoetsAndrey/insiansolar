@@ -465,6 +465,17 @@ body {
 .economics .variants span {
   padding-left: 10px;
 }
+.economics .stages .working-img {
+  width: 50%;
+  padding: 20px;
+  margin-bottom: 15px;
+  background: #fff;
+  border: 1px solid #21252933;
+  box-shadow: 50px 50px 0px #E8EFF6;
+}
+.economics .stages p {
+  font-weight: 600;
+}
 .contacts {
   padding-top: 105px;
   color: #212529;
@@ -557,6 +568,34 @@ body {
   width: 100%;
   box-shadow: 30px 30px 0px #E8EFF6;
   margin-bottom: 15px;
+}
+.working h3 {
+  font-weight: 800;
+  font-size: 45px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.working h3 span {
+  color: #ffd400;
+}
+.working .about-img {
+  width: 100%;
+  box-shadow: 30px 30px 0px #E8EFF6;
+}
+.working h3::before {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 15%;
+  margin-right: 20px;
+  border-top: 1px solid #ffd400;
+}
+.working h3::after {
+  content: "";
+  display: inline-block;
+  height: .35em;
+  width: 30%;
+  margin-left: 20px;
+  border-top: 1px solid #1a598e;
 }
 .items {
   color: #212529;
@@ -1038,6 +1077,7 @@ body {
   .our-projects h3,
   .green h3,
   .contacts h3,
+  .economics h3,
   .map h3,
   .ntmy h3,
   .items h3,
@@ -1049,7 +1089,7 @@ body {
   .testimonials h3,
   .consultation h3,
   .energo-news h3,
-  .energo-articles h3 {
+  .energo-articles .working h3 {
     font-size: 35px;
   }
   .energo-articles .articles p {

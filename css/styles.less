@@ -569,6 +569,21 @@ html, body {
             padding-left: 10px;
         }
     }
+
+    .stages {
+        .working-img {
+            width: 50%;
+            padding: 20px;
+            margin-bottom: 15px;
+            background: #fff;
+            border: 1px solid #21252933;
+            box-shadow: 50px 50px 0px #E8EFF6;
+        }
+
+        p {
+            font-weight: 600;
+        }
+    }
 }
 
 .contacts {
@@ -684,6 +699,41 @@ html, body {
             box-shadow: 30px 30px 0px #E8EFF6;
             margin-bottom: 15px;
         }
+    }
+}
+
+.working {
+    h3 {
+        font-weight: 800;
+        font-size: @h3-font-size;
+        text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+
+        span {
+            color: #ffd400;
+        }
+    }
+
+    .about-img {
+        width: 100%;
+        box-shadow: 30px 30px 0px #E8EFF6;
+    }
+
+    h3::before {
+        content: "";
+        display: inline-block;
+        height: .35em;
+        width: 15%;
+        margin-right: 20px;
+        border-top: 1px solid #ffd400;
+    }
+
+    h3::after {
+        content: "";
+        display: inline-block;
+        height: .35em;
+        width: 30%;
+        margin-left: 20px;
+        border-top: 1px solid #1a598e;
     }
 }
 
@@ -1264,10 +1314,11 @@ html, body {
     }
 
     .store, .decisions, .brands, .team,
-    .our-projects, .green, .contacts,
+    .our-projects, .green, .contacts, .economics,
     .map, .ntmy, .items, .about, .services,
     .solar, .gallery, .news, .testimonials,
-    .consultation, .energo-news, .energo-articles {
+    .consultation, .energo-news, .energo-articles
+    .working {
         h3 {
             font-size: @h3-font-size-mobile;
         }
