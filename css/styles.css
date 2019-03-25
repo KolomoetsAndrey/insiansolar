@@ -576,6 +576,9 @@ body {
   box-shadow: 30px 30px 0px #E8EFF6;
   margin-bottom: 15px;
 }
+.working {
+  background-color: #edf2f7;
+}
 .working h3 {
   font-weight: 800;
   font-size: 45px;
@@ -603,6 +606,9 @@ body {
   width: 30%;
   margin-left: 20px;
   border-top: 1px solid #1a598e;
+}
+.working img {
+  width: 100%;
 }
 .items {
   color: #212529;
