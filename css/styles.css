@@ -474,7 +474,14 @@ body {
   box-shadow: 50px 50px 0px #E8EFF6;
 }
 .economics .stages p {
-  font-weight: 600;
+  font-weight: 500;
+}
+.economics .stages span {
+  color: #ffd400;
+  font-size: 25px;
+  font-weight: 800;
+  margin-right: 10px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
 }
 .contacts {
   padding-top: 105px;
